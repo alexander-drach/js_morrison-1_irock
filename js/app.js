@@ -8,6 +8,6 @@ window.addEventListener('load', () => {
    irock.addEventListener('click', () => {
     let userName = prompt('what is your name?', '');
     alert(`it is good to meet you, ${userName}`);
-    irock.src = '../images/irock-smile.png';
+    irock.src = './images/irock-smile.png';
    })
 })
